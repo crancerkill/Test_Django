@@ -6,7 +6,7 @@ from django.http import HttpResponse, Http404
 
 def home(request):
   text = """<h1>Bienvenue sur mon blog !</h1>
-            <p>Les crèpes bretonnes ça tue des mouettes en plein vol !</p>"""
+            <p>Les crèpes bretonnes ça tue des mouettes en plein vol de mouton!</p>"""
   return HttpResponse(text)
 
 def view_article(request, id_article):
